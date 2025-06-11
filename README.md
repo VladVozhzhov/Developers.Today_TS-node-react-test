@@ -16,8 +16,8 @@ This project is a full-stack JavaScript application featuring a React + Vite + T
 1. **Clone the repository:**
 
    ```bash
-   git clone github.com/VladVozhzhov/TS-Full-Stack-Task
-   cd Full-Stack\ JS\ engineer\ test\ assessment
+   git clone github.com/VladVozhzhov/Developers.Today_TS-node-react-test
+   cd Developers.Today_TS-node-react-test
    ```
 
 2. **Install root dependencies:**
