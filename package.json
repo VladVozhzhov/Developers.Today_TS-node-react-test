@@ -1,0 +1,32 @@
+{
+  "name": "full-stack-js-engineer-test-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && ts-node-dev src/server.ts\" \"cd frontend && npm run dev\"",
+    "build": "concurrently \"cd backend && tsc\" \"cd frontend && vite build\"",
+    "start": "cd backend && node dist/server.js"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.0",
+    "axios": "^1.9.0",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19"
+  }
+}
